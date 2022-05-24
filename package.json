@@ -1,0 +1,39 @@
+{
+  "name": "rust-playground-v3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "vue-cli-service lint",
+    "dev": "vite",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.0-rc.5",
+    "pinia": "^2.0.14",
+    "tauri-plugin-store-api": "github:tauri-apps/tauri-plugin-store#6c509160f4ee87109d84a63e34db7520e4119b98",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-rc.11",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vitest": "^0.12.9",
+    "vue-tsc": "^0.34.7"
+  }
+}

@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.0-rc.11",
+    "@testing-library/vue": "^6.4.2",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "@vitejs/plugin-vue": "^2.3.3",
@@ -31,6 +32,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^8.0.3",
+    "happy-dom": "^4.0.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vitest": "^0.12.9",

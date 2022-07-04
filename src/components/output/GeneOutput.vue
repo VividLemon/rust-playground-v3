@@ -35,11 +35,11 @@ const { getGeneCols: cols } = useGeneStore()
 const arraysBySlot = computed<Array<Array<Gene>>>(() => {
   const array: Array<Array<Gene>> = [[], [], [], [], []]
   cols.forEach((element) => {
-    let counter = 0
-    for (const iterator of element.values) {
-      array[counter].push(iterator)
-      counter++
-    }
+    element.values.map((el, index) => array[index].push(el))
+    // for (const iterator of element.values) {
+    //   array[counter].push(iterator)
+    //   counter++
+    // }
   })
   return array
 })
